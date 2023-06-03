@@ -20,7 +20,7 @@ for (var i = 0; i < Poblacion.Length; i++)
 Console.WriteLine($"Población General:{Poblacion.Sum():N0}");
 Console.WriteLine($"Departamento con mayor Población:{maxDepkey}");
 Console.WriteLine($"Departamento con menor Población:{minDepkey}");
-//mostrar el diccionario sin ordenar
+//mostrar el diccionario sin ordenar modificador
 Console.WriteLine($"datos desordenados");
 foreach (var item in diccionario)
 Console.WriteLine($"{item.Key,-20}==>{item.Value,10:N0}");
